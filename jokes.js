@@ -1,6 +1,7 @@
 const jokebutton = document.getElementById('button');
 const jokes = document.getElementById('joke');
 
+
 const apikey = "gNCH8zKcv/bFfuFGxY3FkA==mIs4WOwYnVm6nsvG";
 const options = {
     method: "GET",
