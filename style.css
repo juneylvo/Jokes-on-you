@@ -4,15 +4,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Poppins;
   }
 
+  h1{
+    font-size: 35px;
+    color: #ecad65;
+  }
   body{
     margin: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    background-image: url("Colorful\ Alphabet\ Dad\ Joke\ Father\'s\ Day\ Instagram\ Story.png");
+    background-size: 105% auto;
   }
 
 .wrapper{
@@ -37,7 +43,7 @@ p{
   padding: 12px 30px;
   font-size: 15px;
   font-family: Poppins;
-  background: #5a799b;
+  background: rgb(240, 162, 84);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -47,5 +53,5 @@ p{
 }
 
 .getjoke:hover{
-  background-color: #344b63;
+  background-color: #ecd465;
 }
